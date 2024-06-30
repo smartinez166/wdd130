@@ -28,11 +28,11 @@ aside {
     margin: 1em;
     border: 1px solid rgba (0,0,0, 0.2);
     padding: 1em;
-    background-color: rgb(rgb(107, 29, 29), rgb(20, 80, 20), rgb(16, 16, 85));
-    color: rgb(24, 23, 23);
+    background-color:#000;
+    color: #557;
     text-align: center;
 }
-aside img{
+aside img {
     width: 200px;
     height: auto;
 }

@@ -1,0 +1,52 @@
+@import url(https://fonts.google.com/specimen/Ysabeau+SC);
+@import url(https://fonts.google.com/specimen/Battambang?preview.layout=grid&query=Battambang);
+
+header{
+    padding: 20px;
+    background-color:var(--accent-color) ;
+}
+
+nav{
+    background-color: var(--navigation-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--navigation-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(nav-link-color)
+}
+
+body {
+    font-family:var(--paragraph-font) ;
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+     --primary-color: #52625C;
+     --secondary-color: #C2CBA1;
+     --accent-color: #2F2F2E;
+     --accent-color2: #365842;
+     --heading-font: "Ysabeau", serif; 
+     --paragraph-font:"Battammbang",serif;
+     --navigation-background-color:#0b470e;
+     --navigation-link-color:#848484;
+     --navigation-hover-link-color:#644172;
+     --navigation-hover-background-color:#659417;
+}
+
+h1 h2 h3 h4 h5 h6 {
+font-family: var(--heading-font);
+color:var(--primary-color)
+}
+
+p{
+    padding: 25px;
+}
