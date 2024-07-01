@@ -1,43 +1,32 @@
-nav {
-    background-color: steelblue;
-    padding: 10px;
-}
+nav {background-color: steelblue;
+    padding: 10px;}
 
-nav a {
-    color: white;
+nav a {color: white;
     display: block;
-    padding: 20px;
-}
+    padding: 20px;}
 
-h1 {
-    color: steelblue;
-}
+h1 {color: steelblue;}
 
 main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray ;
-}
+    box-shadow: 0 0 30px gray ;}
 
 p{
     padding: 0;
 }
 
-main {
-    max-width: 840px;
-}
+main {max-width: 840px;}
 
-aside {
-    width: 20rem;
+aside {width: 20rem;
     margin: 1em;
     border: 1px solid rgba(50, 50, 50, 0.2);
     padding: 1em;
     background-color:#000;
     color: #557;
-    text-align: center;
-}
+    text-align: center;}
 
 aside img {
     width: 200px;
