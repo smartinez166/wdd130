@@ -26,7 +26,7 @@ main {
 aside {
     width: 20rem;
     margin: 1em;
-    border: 1px solid rgba (0,0,0, 0.2);
+    border: 1px solid rgba(50, 50, 50, 0.2);
     padding: 1em;
     background-color:#000;
     color: #557;
