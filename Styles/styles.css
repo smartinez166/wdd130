@@ -1,36 +1,32 @@
-nav {background-color: steelblue;
-    padding: 10px;}
+main {
+    max-width: 840px;
+}
 
-nav a {color: white;
-    display: block;
-    padding: 20px;}
+aside {
+    width: 20rem;
+    margin: 1em;
+    border: 1px solid rgba(50, 50, 50, 0.2);
+    padding: 1em;
+    background-color:#000;
+    color: #557;
+    text-align: center;
+}
 
-h1 {color: steelblue;}
+aside img {
+    width: 200px;
+    height: auto;
+}
 
 main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray ;}
-
-p{
-    padding: 0;
+    box-shadow: 0 0 30px gray ;
 }
 
-main {max-width: 840px;}
-
-aside {width: 20rem;
-    margin: 1em;
-    border: 1px solid rgba(50, 50, 50, 0.2);
-    padding: 1em;
-    background-color:#000;
-    color: #557;
-    text-align: center;}
-
-aside img {
-    width: 200px;
-    height: auto;
+p {
+    padding: 0;
 }
 
 footer {
