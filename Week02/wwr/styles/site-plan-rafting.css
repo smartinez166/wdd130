@@ -20,7 +20,12 @@ nav a{
 }
 
 nav a:link, nav a:visited {
-    color: var(nav-link-color)
+    color: var(--navigation-link-color)
+}
+
+nav a:hover {
+ color: var(--navigation-hover-background-color);
+ background-color: var(--navigation-hover-link-color);
 }
 
 body {
